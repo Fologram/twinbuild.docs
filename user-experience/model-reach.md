@@ -2,7 +2,7 @@
 layout: default
 title: Model Reachability
 nav_order: 4
-parent: Optimizing User Experience in AR
+parent: Optimizing User Experience
 ---
 
 # The importance of model reachability in augmented reality

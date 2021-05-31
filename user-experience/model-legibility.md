@@ -2,7 +2,7 @@
 layout: default
 title: Model Legibility
 nav_order: 2
-parent: Optimizing User Experience in AR
+parent: Optimizing User Experience
 ---
 
 # Maximizing model legibility in augmented reality

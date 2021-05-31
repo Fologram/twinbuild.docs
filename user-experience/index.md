@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Optimizing User Experience in AR
+title: Optimizing User Experience
 nav_order: 4
 has_children: true
 ---

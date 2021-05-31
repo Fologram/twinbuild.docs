@@ -2,7 +2,7 @@
 layout: default
 title: Model Orientation
 nav_order: 5
-parent: Optimizing User Experience in AR
+parent: Optimizing User Experience
 ---
 
 # Choosing an appropriate model orientation for your application
