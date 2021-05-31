@@ -5,6 +5,6 @@ nav_order: 1
 ---
 # Get started with Twinbuild
 Learn how to create a Twinbuild account, publish a demo model and view it in your workspace on the HoloLens with our guide for first time users. 
-{: .fs-6 }
+{: .fs-6 .fw-300 }
 
 [Learn Twinbuild](http://docs.twinbuild.com){: .btn }
