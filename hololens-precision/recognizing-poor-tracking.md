@@ -2,7 +2,7 @@
 layout: default
 title: Recognizing Poor Tracking
 nav_order: 1
-parent: Understanding HoloLens Precision
+parent: HoloLens Precision
 ---
 
 # Learning to recognize sub-optimal tracking on the HoloLens

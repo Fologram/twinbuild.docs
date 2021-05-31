@@ -2,7 +2,7 @@
 layout: default
 title: Environmental Factors
 nav_order: 2
-parent: Understanding HoloLens Precision
+parent: HoloLens Precision
 ---
 
 # How the work environment affects HoloLens precision

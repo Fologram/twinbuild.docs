@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Understanding HoloLens Precision
+title: HoloLens Precision
 nav_order: 3
 has_children: true
 ---

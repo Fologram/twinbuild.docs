@@ -2,7 +2,7 @@
 layout: default
 title: System Load
 nav_order: 4
-parent: Understanding HoloLens Precision
+parent: HoloLens Precision
 ---
 
 # How GPU and CPU load affects precision
