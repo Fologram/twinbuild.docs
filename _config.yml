@@ -4,4 +4,4 @@ description: Guides to learning Twinbuild
 remote_theme: pmarsceill/just-the-docs
 color_scheme: twinbuild
 
-baseurl: /twinbuild.docs
+baseurl: /
