@@ -11,6 +11,7 @@ The default publishing settings can be manually adjusted using the Twinbuild set
 
 ### Global Settings
 
+```json
 "SettingsVersion": 1
 The version of the Twinbuild settings file
 "ServeAddress": "http://app.twinbuild.com/preview"
@@ -41,17 +42,22 @@ Whether transparent images are supported
 The amount of draco compression. 0 (off) - 10 (maximum)
 "PrettyPrint": true
 Whether .gltf (non-binary) files should be human readable (larger file sizes)
+```
 
 ### Revit Settings
 
+````json
 "LevelOfDetail": 0.5
 The level of detail for the meshing algorithm. 0 is minimum detail and 1 is maximum
 "ReduceDrawCalls": true
-If true, objects that share similar layer and material properties will be merged into a single mesh
+If true, objects that share similar layer and material properties will be merged into a single mesh```
+````
 
 ### Rhino Settings
 
+````json
 "UseInstanceDefinitionLayer": false
 Whether block instances should be placed on their definition layer or on their original layer
 "UseFineMesh": false
-Mesh resolution
+Mesh resolution```
+````
