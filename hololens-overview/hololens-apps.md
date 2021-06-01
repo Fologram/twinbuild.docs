@@ -5,16 +5,10 @@ nav_order: 4
 parent: HoloLens Overview
 ---
 
-# Installing, Launching, Closing and Uninstalling Twinbuild on the HoloLens
+# Launching, Closing and Uninstalling Twinbuild on the HoloLens
 
 Twinbuild can be launched from the Windows Home menu or from QR codes.
 {: .fs-6 .fw-300 }
-
-## Installing Twinbuild
-
-![Twinbuild Windows Store Link]({{ site.baseurl}}/img/StoreLink.png "Twinbuild Windows Store Link")
-
-Scan the QR Code above with your HoloLens 2 to display an App Launch button (a green rectangle with a large Play icon). Tap the App Launch button and confirm any prompts to open the Windows Store page for Twinbuild. Sign in to your Windows Store account if needed, then tap Install to install Twinbuild on the HoloLens 2. If you can't scan the QR code, visit this page on the HoloLens 2 and then [tap this link](https://www.microsoft.com/store/apps/9MW7GH4XVB3S) to open the store page.
 
 ## Launching Twinbuild
 

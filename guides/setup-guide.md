@@ -17,7 +17,7 @@ parent: Guides
 
 ### Installing Twinbuild for HoloLens
 
-[Installing Twinbuild from the Windows Store]({{ site.baseurl}}/hololens-overview/hololens-apps)
+[Installing Twinbuild from the Windows Store]({{ site.baseurl}}/twinbuild-hololens-viewer)
 
 ### Installing Plugins
 
