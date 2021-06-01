@@ -5,7 +5,9 @@ nav_order: 7
 has_children: true
 ---
 
-# Best practice working with Twinbuild for Rhino
+# Installing Twinbuild for Rhino
 
-Subheading here
+Publish models directly from Rhino with our integration
 {: .fs-6 .fw-300 }
+
+[Get Twinbuild](https://twinbuild.com/download){: .btn }
