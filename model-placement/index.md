@@ -7,5 +7,43 @@ has_children: true
 
 # Best practice for working with registration markers
 
-Subheading here
+Users should determine a strategy for locating registration markers by balancing the overheads of setup time with the required holographic precision.
 {: .fs-6 .fw-300 }
+
+Imprecision in marker locations will lead to corresponding error in drift correction of holographic models. Precision of holographic models will be affected by both the proximity to a registration marker as well as whether the HoloLens is inside or outside of the bounding region defined by all marker locations.
+
+![Linear Marker Precision]({{ site.baseurl}}/img/LinearMarkerDiagram.png "Linear Marker Precision")
+
+### Linear Registration Markers
+
+_Implementation:_ Using a tape measure / disto, align markers (white crosses in above diagram) with the workspace at a known measured distance apart.
+
+_Precision:_ High (along marker line - indicated by green in the above diagram), very poor beyond the line.
+
+_Applications:_ 1:1 visualization and for linear applications up to 4000mm long and up to 2000mm high (e.g. wall construction)
+
+_Work Area:_ Maximum precision at each marker, with drift correction along the line between markers. Normal HoloLens drift at any distance from this line.
+
+![Marker Grid Precision]({{ site.baseurl}}/img/GridMarkerDiagram.png "Marker Grid Precision")
+
+### Marker Grids
+
+_Implementation:_ Using a tape measure / disto and laser level, locate a square grid of markers (white crosses in above diagram) perpendicular to a wall in the work space at a known measured distance apart. Alternatively, place markers at known locations e.g. along intersecting lines of column grids or at corners of interior walls.
+
+_Precision:_ Moderate to high (due to human error in setting out grid and imprecision in built features). Precision is best near markers and within the contained boundary.
+
+_Applications:_ Setout applications contained within the marker perimeter and up to 2000mm high, where floor mounted markers will not be occluded during the course of the application.
+
+_Work Area:_ Maximum precision at each marker, with drift correction within the area between any three markers. Normal drift outside of the marker perimeter.
+
+![Distributed Marker Precision]({{ site.baseurl}}/img/DistributedMarkerDiagram.png "Distributed Marker Precision")
+
+### Distributed Markers
+
+_Implementation:_ Distribute markers within the workspace such that they are frequently visible while working with the HoloLens. Maintain approximately 4000mm spacing between markers (white dots in above diagram). After placement, digitize the positions of the markers using LIDAR scans or alternative methods.
+
+_Precision:_ Highest (within contained boundary as indicated by green area in above diagram)
+
+_Applications:_ Manufacturing environments with recurring use.
+
+_Work Area:_ Maximum precision at each marker, with drift correction within the area between any three markers. Normal drift outside of the marker perimeter.
