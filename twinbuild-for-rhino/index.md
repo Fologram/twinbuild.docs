@@ -22,7 +22,7 @@ To ensure a predictable experience for the end user, it is generally useful to k
 
 ### Publishing Curves
 
-![Curve Piping]({{ site.baseurl}}/img/CurvePiping.PNG "Curve Piping")
+![Curve Piping]({{ site.baseurl}}/img/CurvePiping.png "Curve Piping")
 
 Use the Rhino curve piping properties to create low polygon mesh pipes from curve geometry for publishing with Twinbuild. The settings above (0.5mm radius, 4 segments and a flat cap type) are well suited to layout tasks. If creating pipes from curves, adjust the Accuracy slider to create a pipe with appropriate mesh resolution for the task. Run the _ExtractPipedCurve_ command to extract the mesh object from the preview of the curve pipe. This object can then be published with the _Twinbuild_ command.
 
