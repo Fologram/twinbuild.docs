@@ -1,6 +1,6 @@
 ---
 layout: default
-title: HoloLens Applications
+title: HoloLens Apps
 nav_order: 4
 parent: HoloLens Overview
 ---
