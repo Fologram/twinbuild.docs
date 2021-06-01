@@ -7,5 +7,4 @@ parent: Model Preparation
 
 # Managing model layer heirarchy for augmented reality
 
-Subheading here
-{: .fs-6 .fw-300 }
+The visibility of model layers can be controlled within the Twinbuild application to create task sequences and minimize the amount of holographic information visible to an end user at any one time. If your application makes use of the layers panel in Twinbuild, it is considered best practice to minimize the number of layers in the model to ensure the simplest possible experience for the end user.
