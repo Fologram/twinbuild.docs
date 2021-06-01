@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Design and Publishing Guide
+title: Design Guide
 nav_order: 3
 parent: Guides
 ---
