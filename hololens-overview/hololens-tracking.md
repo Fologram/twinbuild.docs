@@ -10,11 +10,11 @@ parent: HoloLens Overview
 The HoloLens 2 uses ‘inside out’ tracking to estimate headset pose from the position and motion of feature points within the work environment that are visible to the onboard cameras.
 {: .fs-6 .fw-300 }
 
-![HoloLens 2 Cameras](img/HoloLens2FrontView.png "HoloLens 2 Cameras")
+![HoloLens 2 Cameras](../img/HoloLens2FrontView.png "HoloLens 2 Cameras")
 
 The HoloLens has 4 greyscale cameras that are used to detect high contrast features and estimate their depth. As you and the HoloLens move, the relative position of the feature points is tracked by SLAM algorithms running on the headset and used to update the camera pose. Holograms are then rendered on the stereo display of the Hololens using this camera position.
 
-![SLAM Example](img/SlamExample.jpg "SLAM Example")
+![SLAM Example](../img/SlamExample.jpg "SLAM Example")
 _Example of tracked feature points. Image credits: Davison, A. J., Reid, I. D., Molton, N. D., & Stasse, O. (2007). MonoSLAM: Real-time single camera SLAM. IEEE Transactions on Pattern Analysis & Machine Intelligence, (6), 1052-1067._
 {: .fs-2 .fw-300 }
 
