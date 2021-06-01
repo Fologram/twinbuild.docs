@@ -10,7 +10,7 @@ has_children: true
 Users should determine a strategy for locating registration markers by balancing the overheads of setup time with the required holographic precision.
 {: .fs-6 .fw-300 }
 
-Imprecision in marker locations will lead to corresponding error in drift correction of holographic models. Precision of holographic models will be affected by both the proximity to a registration marker as well as whether the HoloLens is inside or outside of the bounding region defined by all marker locations.
+Imprecision in marker locations will lead to corresponding error in drift correction of holographic models. Precision of holographic models will be affected by both the proximity to a registration marker as well as whether the HoloLens is inside or outside of the bounding region defined by all marker locations. _Note: Proximity to markers and the marker bounding region is calculated only in 2D using a projection of marker positions to the XY plane. You should avoid placing markers directly above one another in 3D space as this can lead to incorrect identification of proximate markers._
 
 ![Linear Marker Precision]({{ site.baseurl}}/img/LinearMarkerDiagram.png "Linear Marker Precision")
 
@@ -40,7 +40,7 @@ _Work Area:_ Maximum precision at each marker, with drift correction within the 
 
 ### Distributed Markers
 
-_Implementation:_ Distribute markers within the workspace such that they are frequently visible while working with the HoloLens. Maintain approximately 4000mm spacing between markers (white dots in above diagram). After placement, digitize the positions of the markers using LIDAR scans or alternative methods.
+_Implementation:_ Distribute markers within the workspace such that they are frequently visible while working with the HoloLens. Avoid placing markers directly above one another. Maintain approximately 4000mm spacing between markers (white dots in above diagram). After placement, digitize the positions of the markers using LIDAR scans or alternative methods.
 
 _Precision:_ Highest (within contained boundary as indicated by green area in above diagram)
 
