@@ -7,5 +7,4 @@ parent: Twinbuild Web Viewer
 
 # Creating and signing in to your Twinbuild account
 
-Subheading here
-{: .fs-6 .fw-300 }
+Users will need to create a Twinbuild account to upload published models, align models with registration codes and view models in augmented reality on the HoloLens. To create an account, visit app.twinbuild.com and sign in with Google or email address and password.
