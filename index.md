@@ -11,7 +11,7 @@ For Administrators, follow the guide for setting up the HoloLens 2 with Twinbuil
 
 [Setup Guide]({{ site.baseurl}}/guides/setup-guide){: .btn }
 
-Learn how to use Twinbuild and the HoloLens 2 with out step by step instructions for end users.
+Twinbuild training guide for end users.
 {: .fs-6 .fw-300 }
 
 [Training Guide]({{ site.baseurl}}/guides/training-guide){: .btn }
