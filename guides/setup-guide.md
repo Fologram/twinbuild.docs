@@ -10,7 +10,9 @@ parent: Guides
 ### Setting up the HoloLens
 
 [HoloLens Setup]({{ site.baseurl}}/hololens-overview/hololens-setup)
+
 [Learning the HoloLens Interface]({{ site.baseurl}}/hololens-overview/hololens-interface)
+
 [Configuring Device Portal]({{ site.baseurl}}/hololens-overview/hololens-device-portal)
 
 ### Installing Twinbuild for HoloLens
@@ -20,6 +22,7 @@ parent: Guides
 ### Installing Plugins
 
 [Installing Twinbuild for Revit]({{ site.baseurl}}/twinbuild-for-revit)
+
 [Installing Twinbuild for Rhino]({{ site.baseurl}}/twinbuild-for-rhino)
 
 ### Twinbuild Account management
