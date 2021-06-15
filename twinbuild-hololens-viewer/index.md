@@ -14,7 +14,7 @@ Note that trial licenses of Twinbuild are offered on a per-device basis. If you 
 
 ![Twinbuild Windows Store Link]({{ site.baseurl}}/img/StoreLink.png "Twinbuild Windows Store Link")
 
-Scan the QR Code above with your HoloLens 2 to display an App Launch button (a green rectangle with a large Play icon). Tap the App Launch button and confirm any prompts to open the Windows Store page for Twinbuild. Sign in to your Windows Store account if needed, then tap Install to install Twinbuild on the HoloLens 2. If you can't scan the QR code, visit this page on the HoloLens 2 and tap the button below.
+Scan the QR Code above with your HoloLens 2 to display an App Launch button (a green rectangle with a large Play icon). Tap the App Launch button and confirm any prompts to open the Windows Store page for Twinbuild. Sign in to your Windows Store account if needed, then tap Get to install Twinbuild on the HoloLens 2. If you can't scan the QR code, visit this page on the HoloLens 2 and tap the button below.
 
 [Get Twinbuild](ms-windows-store://pdp/?ProductId=9MW7GH4XVB3S){: .btn }
 
