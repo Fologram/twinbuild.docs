@@ -46,18 +46,22 @@ Whether .gltf (non-binary) files should be human readable (larger file sizes)
 
 ### Revit Settings
 
-````json
+```json
 "LevelOfDetail": 0.5
 The level of detail for the meshing algorithm. 0 is minimum detail and 1 is maximum
 "ReduceDrawCalls": true
-If true, objects that share similar layer and material properties will be merged into a single mesh```
-````
+If true, objects that share similar layer and material properties will be merged into a single mesh
+```
 
 ### Rhino Settings
 
-````json
+```json
 "UseInstanceDefinitionLayer": false
 Whether block instances should be placed on their definition layer or on their original layer
 "UseFineMesh": false
-Mesh resolution```
-````
+Mesh resolution
+"CurveLinearTolerance": 1.0
+The maximum distance between midpoints of polyline segments and converted curves
+"CurveAngleTolerance": 0.5
+The maximum angle between polyline segments
+```
