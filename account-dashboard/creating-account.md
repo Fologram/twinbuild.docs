@@ -1,0 +1,17 @@
+---
+layout: default
+title: Creating an Account
+nav_order: 1
+parent: Twinbuild Account Dashboard
+---
+
+# Creating and signing in to your Twinbuild account
+
+A free Twinbuild account is required for publishing models, managing teams and purchasing subscriptions.
+{: .fs-6 .fw-300 }
+
+![Sign up for Twinbuild]({{ site.baseurl}}/img/1_Twinbuild_Account_SignIn.png "Sign up for Twinbuild")
+
+If you and your team are working with Twinbuild for the first time, visit account.twinbuild.com and sign in using your company's Google or Microsoft email, or by completing the sign up form and providing an email and password. To create a team and invite designers and engineers who will be publishing models, you will need a Twinbuild Pro subscription. You can enter the number of seats required and click Subscribe to visit the customer portal and complete checkout. If your IT administrator or finance department will be completing the purchase, click on 'Copy Link To Checkout' to email a link to the checkout page that is valid for 24 hours. If you're purchasing a subscription by invoice, contact out support team and we can set up a Twinbuild account with your subscription for you.
+
+An account is not required to scan Links and load models in Twinbuild on the HoloLens 2. This means that anyone with access to a HoloLens 2 and a Link to a model published by your team can start working with Twinbuild immediately.
