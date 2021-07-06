@@ -5,15 +5,21 @@ nav_order: 3
 parent: Twinbuild Account Dashboard
 ---
 
-# Requesting a Twinbuild Trial
+# Purchasing and Updating Subscriptions
 
-Sign in to your Twinbuild account to request a free 14 day trial of Twinbuild Pro.
+A Twinbuild subscription is required for each HoloLens 2 device you will be using to view models.
 {: .fs-6 .fw-300 }
 
-![Twinbuild account dashboard]({{ site.baseurl}}/img/2_Twinbuild_Account_Welcome.png "Twinbuild account dashboard")
+If you’re not sure whether the Basic or Pro plan is suited to your use case, check the [feature comparison on our website](https://twinbuild.com/#pricing) or contact our team to discuss your requirements.
 
-The Twinbuild Pro trial allows for unlimited model publishing and cloud hosting, unlimited registration markers and offline QR codes and an unlimited team size. Teams are persistent following the conclusion of the trial period and you can continue working with Twinbuild by purchasing a Pro subscription.
+![Customer Portal]({{ site.baseurl}}/img/4_Twinbuild_Stripe_Purchase.png "Customer Portal")
 
-![Request Twinbuild trial]({{ site.baseurl}}/img/3_Twinbuild_Account_RequestTrial.png "Request Twinbuild trial")
+To purchase a new subscription, enter the number of seats (devices) that will be required and click Subscribe to launch the customer portal in a new tab. The customer portal displays the annual total fee for your selected quantity of seats, as well as fields to pay by credit card. Complete your details and click Subscribe to purchase a subscription.
 
-To request a trial license, click the Request Trial button on your account dashboard. Fill in the contact form with your company details along with a description of your intended use case and our support team will be in touch. All trials are offered on a discretionary case by case basis.
+![Update subscription]({{ site.baseurl}}/img/4b_Twinbuild_Stripe_CustomerPortal.png "Update subscription")
+
+After the purchase is completed you can add or remove seats from your subscription by clicking Update Plan. To cancel your subscription at the end of the current billing period, click Cancel Plan. Click Return to Twinbuild to exit the customer portal and redirect to the Twinbuild account dashboard.
+
+![Manage Subscription view]({{ site.baseurl}}/img/5_Twinbuild_Account_OwnerView.png "Manage Subscription view")
+
+If you are the owner, administrator or finance manager for your team, your Twinbuild subscription will be visible and editable on your account dashboard. To make any changes to your subscription, click on Edit to re-launch the customer portal. Please note it may take up to several seconds for any updates to your subscription to be reflected on your account dashboard.
