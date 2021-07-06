@@ -27,4 +27,8 @@ parent: Guides
 
 ### Twinbuild Account management
 
-While in Beta, we recommend that Twinbuild users create a shared gmail account (e.g. twinbuild_mycompany@gmail.com) for publishing and downloading models.
+[Creating a Twinbuild Account]({{ site.baseurl}}/account-dashboard/creating-account)
+
+[Purchasing Subscriptions]({{ site.baseurl}}/account-dashboard/purchasing-subscriptions)
+
+[Managing Teams]({{ site.baseurl}}/account-dashboard/managing-teams)

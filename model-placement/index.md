@@ -14,7 +14,7 @@ Imprecision in marker locations will lead to corresponding error in drift correc
 
 > _Note: Proximity to markers and the marker bounding region is calculated only in 2D using a projection of marker positions to the XY plane. You should avoid placing markers directly above one another in 3D space as this can lead to incorrect identification of proximate markers._
 
-Maximum hologram precision will be exactly equal to the precision in the location of the registration code when standing directly above that code, high when within a triangle defined by 3 codes, moderate when along a linear axis defined by only two codes, and low (e.g. normal drift) at all other locations. Drift will worsen as you move further and further from the code perimeter. [See here for more information on factors affecting precision.](/hololens-precision)
+Maximum hologram precision will be exactly equal to the precision in the location of the registration code when standing directly above that code, high when within a triangle defined by 3 codes, moderate when along a linear axis defined by only two codes, and low (e.g. normal drift) at all other locations. Drift will worsen as you move further and further from the code perimeter. [See here for more information on factors affecting precision.]({{ site.baseurl}}/hololens-precision)
 
 ![Linear Marker Precision]({{ site.baseurl}}/img/LinearMarkerDiagram.png "Linear Marker Precision")
 
