@@ -13,7 +13,9 @@ Users can view models in Twinbuild on the HoloLens by scanning a Link containing
 
 ![Persistent Link warning]({{ site.baseurl}}/img/17_Twinbuild_App_ModelAccessWarning.png "Persistent Link warning")
 
-However it is often convenient to print Links to include with other printed documents or for access offline. To print a Link with a one year long access token, click View in AR to create a Link, then click Print. Anyone with access to the physical print of the Link will be able to view this model by scanning with the HoloLens 2, so exercise caution when printing Links to sensitive data.
+However it is often convenient to print Links to include with other printed documents or for access offline. To print a Link with a one year long access token, click View in AR to create a Link, then click Print.
+
+> **Note:** Anyone with access to the physical print of the Link will be able to view this model by scanning with the HoloLens 2, so exercise caution when printing Links to sensitive data.
 
 ![Twinbuild Persistent Link]({{ site.baseurl}}/img/18_Twinbuild_App_ModelQRPDF.png "Twinbuild Persistent Link")
 
