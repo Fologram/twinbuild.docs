@@ -14,6 +14,8 @@ Teams allow for multiple users to access Twinbuild Pro features with fine grain 
 
 ### Viewing all existing team members
 
+![Inviting new team members]({{ site.baseurl}}/img/8_Twinbuild_Account_InviteSent_crop.png "Inviting new team members")
+
 Click on the Edit button next to Manage Teams on your account dashboard to expand the Team view. The team view shows all current team members and their permissions, as well as a field to email an invitation to join your team to a new user.
 
 ### Inviting new users to your team
