@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Adding Registration Codes
-nav_order: 4
+nav_order: 3
 parent: Twinbuild Web Viewer
 ---
 

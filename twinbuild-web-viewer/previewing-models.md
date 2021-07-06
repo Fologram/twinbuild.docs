@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Publishing and Previewing Models
-nav_order: 2
+nav_order: 1
 parent: Twinbuild Web Viewer
 ---
 

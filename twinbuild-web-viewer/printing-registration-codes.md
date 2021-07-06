@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Printing Registration Codes
-nav_order: 5
+nav_order: 4
 parent: Twinbuild Web Viewer
 ---
 
