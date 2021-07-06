@@ -7,6 +7,14 @@ parent: Guides
 
 # HoloLens and Twinbuild setup guide for administrators
 
+### Creating a Twinbuild Account
+
+[Creating a Twinbuild Account]({{ site.baseurl}}/account-dashboard/creating-account)
+
+[Purchasing Subscriptions]({{ site.baseurl}}/account-dashboard/purchasing-subscriptions)
+
+[Managing Teams]({{ site.baseurl}}/account-dashboard/managing-teams)
+
 ### Setting up the HoloLens
 
 [HoloLens Setup]({{ site.baseurl}}/hololens-overview/hololens-setup)
@@ -24,11 +32,3 @@ parent: Guides
 [Installing Twinbuild for Revit]({{ site.baseurl}}/twinbuild-for-revit)
 
 [Installing Twinbuild for Rhino]({{ site.baseurl}}/twinbuild-for-rhino)
-
-### Twinbuild Account management
-
-[Creating a Twinbuild Account]({{ site.baseurl}}/account-dashboard/creating-account)
-
-[Purchasing Subscriptions]({{ site.baseurl}}/account-dashboard/purchasing-subscriptions)
-
-[Managing Teams]({{ site.baseurl}}/account-dashboard/managing-teams)
