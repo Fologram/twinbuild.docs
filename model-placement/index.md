@@ -10,9 +10,11 @@ has_children: true
 Users should determine a strategy for locating registration markers by balancing the overheads of setup time with the required holographic precision.
 {: .fs-6 .fw-300 }
 
-Imprecision in marker locations will lead to corresponding error in drift correction of holographic models. For maximum precision it is important to ensure your workspace is set up within a perimiter defined by 3 or more registration codes as Twinbuild will interpolate between the tracked positions of the nearest three registration codes to corect for drift. Maximum hologram precision will be exactly equal to the precision in the location of the registration code when standing directly above that code, high when within a triangle defined by 3 codes, moderate when along a linear axis defined by only two codes, and low (e.g. normal drift) at all other locations. Drift will worsen as you move further and further from the code perimeter. [See here for more information on factors affecting precision.](/hololens-precision)
+Imprecision in marker locations will lead to corresponding error in drift correction of holographic models. For maximum precision it is important to ensure your workspace is set up within a perimiter defined by 3 or more registration codes as Twinbuild will interpolate between the tracked positions of the nearest three registration codes to corect for drift.
 
 > _Note: Proximity to markers and the marker bounding region is calculated only in 2D using a projection of marker positions to the XY plane. You should avoid placing markers directly above one another in 3D space as this can lead to incorrect identification of proximate markers._
+
+Maximum hologram precision will be exactly equal to the precision in the location of the registration code when standing directly above that code, high when within a triangle defined by 3 codes, moderate when along a linear axis defined by only two codes, and low (e.g. normal drift) at all other locations. Drift will worsen as you move further and further from the code perimeter. [See here for more information on factors affecting precision.](/hololens-precision)
 
 ![Linear Marker Precision]({{ site.baseurl}}/img/LinearMarkerDiagram.png "Linear Marker Precision")
 
