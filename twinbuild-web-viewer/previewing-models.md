@@ -5,11 +5,15 @@ nav_order: 1
 parent: Twinbuild Web Viewer
 ---
 
-# Publishing and Previewing locally stored models in the web browser
+# Publishing and Previewing models in the web browser
 
-![Twinbuild Model Preview]({{ site.baseurl}}/img/TwinbuildPreview.png "Twinbuild Model Preview")
+![Twinbuild App Dashboard]({{ site.baseurl}}/img/14_Twinbuild_App_NoModels.png "Twinbuild App Dashboard")
 
-Models can be previewed in the Twinbuild 3D view by dragging and dropping an .fbx, .ifc, .gltf or .glb file into https://app.twinbuild.com/ or publishing from Revit or Rhino.
+You can publish models to Twinbuild from the Twinbuild App Dashboard or directly from our Revit and Rhino plugins. To publish a model from the dashboard, sign in to https://app.twinbuild.com/ and select or drag and drop an .fbx, .ifc, .gltf or .glb file into the drop zone. To publish from Revit or Rhino, follow the guides below.
+
+[Revit Guide]({{ site.baseurl}}/twinbuild-for-revit){: .btn } [Rhino Guide]({{ site.baseurl}}/twinbuild-for-rhino){: .btn }
+
+![Twinbuild Model Preview]({{ site.baseurl}}/img/15_Twinbuild_App_ModelPreview.png "Twinbuild Model Preview")
 
 The camera in the 3D preview is controlled by the mouse or tap gestures on touchscreens. Left click (or tap) and drag to orbit the model. Right click (or two finger tap) and drag to pan the model. Use the scroll wheel (or pinch gesture) to zoom the model.
 

@@ -7,10 +7,10 @@ has_children: true
 
 # Installing Twinbuild HoloLens Viewer
 
-A 14 day trial of Twinbuild for HoloLens is available on the Windows Store.
+Twinbuild for HoloLens is a free download from the Microsoft Windows Store.
 {: .fs-6 .fw-300 }
 
-Note that trial licenses of Twinbuild are offered on a per-device basis. If you need a second trial for your device please [contact support](mailto:support@twinbuild.com). After installing Twinbuild you can launch the app by looking at any Twinbuild Connection code on your HoloLens.
+Note that trial licenses of Twinbuild Pro are offered on a per-device basis. If you need a second trial for your device please [contact support](mailto:support@twinbuild.com). After installing Twinbuild you can launch the app by looking at any model Link on your HoloLens.
 
 ![Twinbuild Windows Store Link]({{ site.baseurl}}/img/StoreLink.png "Twinbuild Windows Store Link")
 

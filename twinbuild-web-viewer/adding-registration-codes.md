@@ -1,15 +1,18 @@
 ---
 layout: default
-title: Adding Registration Codes
+title: Locating Models with Registration Codes
 nav_order: 3
 parent: Twinbuild Web Viewer
 ---
 
-# Adding and importing registration codes
+# Locating Models with Registration Codes
 
-![Adding Registration Markers]({{ site.baseurl}}/img/AddRegistration.png "Adding Registration Markers")
+Registration codes fix holograms to precisely known coordinates in 3D space.
+{: .fs-6 .fw-300 }
 
-### Adding and editing registration codes
+![Adding registration Marks]({{ site.baseurl}}/img/AddRegistration.png "Adding registration Marks")
+
+### Adding and editing registration Marks
 
 The coordinates of registration codes can be defined using the TwinbuildQR command in Rhino or entered manually by clicking on the Register button in the Twinbuild web application after uploading a model. These codes will be used to place your holographic model in physical space, and correct for drift in the hologram as users move between codes. Enter the X, Y and Z coordinates that will be associated with the registration code and click Accept to save the code. If you are planning to re-use existing physical codes you can also edit the randomly generated ID of the code.
 

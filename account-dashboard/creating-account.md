@@ -18,4 +18,4 @@ If you and your team are working with Twinbuild for the first time, visit accoun
 
 To create a team and invite designers and engineers who will be publishing models, you will need a Twinbuild Pro subscription. You can enter the number of seats required and click Subscribe to visit the customer portal and complete checkout. If your IT administrator or finance department will be completing the purchase, click on 'Copy Link To Checkout' to email a link to the checkout page that is valid for 24 hours. If you're purchasing a subscription by invoice, contact out support team and we can set up a Twinbuild account with your subscription for you.
 
-> :info: **Note:** An account is not required to scan Links and load models in Twinbuild on the HoloLens 2. This means that anyone with access to a HoloLens 2 and a Link to a model published by your team can start working with Twinbuild immediately.
+> :construction_worker: **Note:** An account is not required to scan Links and load models in Twinbuild on the HoloLens 2. This means that anyone with access to a HoloLens 2 and a Link to a model published by your team can start working with Twinbuild immediately.

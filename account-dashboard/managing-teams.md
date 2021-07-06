@@ -32,6 +32,8 @@ If you’ve signed in with the same email address as your invitation then a dial
 
 ### Managing roles and permissions
 
+![Invite Email]({{ site.baseurl}}/img/12_Twinbuild_Account_ChangeUserPermissions_crop.png "Invite Email")
+
 Any user with administrator permissions can edit user permissions in the Manage Team view on the account dashboard. Click the checkbox next to the role you wish to assign to a user, then acknowledge the prompt to immediately update the permissions. Permissions for each role are as follows:
 
 *Administrator: All permissions including assigning the administrator role to other users. Cannot remove the team owner.

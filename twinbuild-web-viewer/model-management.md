@@ -1,18 +1,18 @@
 ---
 layout: default
-title: Model Management
+title: Team Model Dashboard
 nav_order: 5
 parent: Twinbuild Web Viewer
 ---
 
-# Viewing and deleting uploaded models
+# Team Model Dashboard
 
-You can view all published models on your [Twinbuild Model dashboard](https://app.twinbuild.com/account/models).
+You can view all published models on your [Twinbuild Team Model dashboard](https://app.twinbuild.com/).
 {: .fs-6 .fw-300 }
 
-![Twinbuild Model Dashboard]({{ site.baseurl}}/img/TwinbuildModels.png "Twinbuild Model Dashboard")
+![Twinbuild Model Dashboard]({{ site.baseurl}}/img/14b_Twinbuild_App_TeamModels.png "Twinbuild Model Dashboard")
 
-To open the model dashboard, click on the My Models link in the bottom right corner of the 3D view of an uploaded model, or visit https://app.twinbuild.com/account/models. Click on a thumbnail to open the 3D view of a model. To display the connection code for a model, click on the Crosshairs icon.
+You can open the model dashboard by visiting https://app.twinbuild.com, from Models button in the Twinbuild menu, or from the Published Models view of your Twinbuild account dashboard. Click on a thumbnail to open the 3D view of a model. To display the Link for a model, click on the Crosshairs icon.
 
 ![Twinbuild Model Information]({{ site.baseurl}}/img/ModelInformation.png "Twinbuild Model Information")
 
