@@ -36,10 +36,10 @@ If you’ve signed in with the same email address as your invitation then a dial
 
 Any user with administrator permissions can edit user permissions in the Manage Team view on the account dashboard. Click the checkbox next to the role you wish to assign to a user, then acknowledge the prompt to immediately update the permissions. Permissions for each role are as follows:
 
-*Administrator: All permissions including assigning the administrator role to other users. Cannot remove the team owner.
-*Finance: Access the customer portal and purchase, update or cancel subscriptions.
-*Manager: View devices with assigned seats. Invite new users, remove managers and users, and assign manager permissions.
-*User: Upload, edit and remove published models. Create, edit and remove persistent Links.
+- Administrator: All permissions including assigning the administrator role to other users. Cannot remove the team owner.
+- Finance: Access the customer portal and purchase, update or cancel subscriptions.
+- Manager: View devices with assigned seats. Invite new users, remove managers and users, and assign manager permissions.
+- User: Upload, edit and remove published models. Create, edit and remove persistent Links.
 
 ### Removing a user from the team
 
