@@ -11,8 +11,8 @@ Using a measuring tape, measure the edge lengths between crosshairs in the 3000m
 
 ### Factors affecting precision in the test
 
-The proximity of the crosshair to a Registration marker, human error in marking out from the crosshair and human error in measuring distance between marked crosshairs will all affect the discrepancy of individual measurements. Some areas of the workspace may track better than others due to environmental factors, and some Registration markers may be more accurately located than others and so measured precision may not be uniform throughout the test.
+The proximity of the crosshair to a Marker, human error in marking out from the crosshair and human error in measuring distance between marked crosshairs will all affect the discrepancy of individual measurements. Some areas of the workspace may track better than others due to environmental factors, and some Markers may be more accurately located than others and so measured precision may not be uniform throughout the test.
 
 ### Maximum precision
 
-If Registration markers are accurately positioned to 1mm and the workspace has been set up to be optimal for HoloLens tracking you should expect measured differences to be 0-3mm due to human error and the fidelity of the HoloLens display.
+If Markers are accurately positioned to 1mm and the workspace has been set up to be optimal for HoloLens tracking you should expect measured differences to be 0-3mm due to human error and the fidelity of the HoloLens display.

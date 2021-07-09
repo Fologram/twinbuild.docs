@@ -11,4 +11,4 @@ While wearing the HoloLens 2 and viewing the precision test model, use masking t
 
 ### Obtaining Optimal Results
 
-For best results, spend some time walking around in your workspace and scanning the positions of registration markers before marking the locations of the crosshairs. Ensure that the HoloLens 2 is calibrated for your eyes and comfortably fitted to your head, and avoid performing the precision test in a crowded environment.
+For best results, spend some time walking around in your workspace and scanning the positions of Markers before setting out the locations of the crosshairs. Ensure that the HoloLens 2 is calibrated for your eyes and comfortably fitted to your head, and avoid performing the precision test in a crowded environment.

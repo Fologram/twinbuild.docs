@@ -12,7 +12,7 @@ Sign in to your Twinbuild account to request a free 14 day trial of Twinbuild Pr
 
 ![Twinbuild account dashboard]({{ site.baseurl}}/img/2_Twinbuild_Account_Welcome.png "Twinbuild account dashboard")
 
-The Twinbuild Pro trial allows for unlimited model publishing and cloud hosting, unlimited registration markers and offline QR codes and an unlimited team size. Teams are persistent following the conclusion of the trial period and you can continue working with Twinbuild by purchasing a Pro subscription.
+The Twinbuild Pro trial allows for unlimited model publishing and cloud hosting, unlimited Markers and offline Links, and an unlimited team size. Teams are persistent following the conclusion of the trial period and you can continue working with Twinbuild by purchasing a Pro subscription.
 
 ![Request Twinbuild trial]({{ site.baseurl}}/img/3_Twinbuild_Account_RequestTrial.png "Request Twinbuild trial")
 

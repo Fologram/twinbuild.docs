@@ -5,9 +5,9 @@ nav_order: 3
 parent: Model Placement
 ---
 
-# How to determine registration marker locations from high resolution LIDAR scans
+# How to determine Marker locations from high resolution LIDAR scans
 
-Optimal precision can be obtained by distributing registration markers within the work space at approximately 4000mm apart in locations that are easily visible by workers wearing the HoloLens.
+Optimal precision can be obtained by distributing Markers within the work space at approximately 4000mm apart in locations that are easily visible by workers wearing the HoloLens.
 {: .fs-6 .fw-300 }
 
 An efficient way to achieve this is to arbitrarily place markers within the work space and then use a high precision LIDAR scan to measure the relative locations of each marker. Alternatively you can use professional surveying equipment (Total Stations etc) or consumer laser measuring tools (Disto 3D) to digitize marker positions.

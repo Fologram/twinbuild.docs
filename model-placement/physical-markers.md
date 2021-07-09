@@ -1,11 +1,11 @@
 ---
 layout: default
-title: Physical Registration Markers
+title: Physical Markers
 nav_order: 4
 parent: Model Placement
 ---
 
-# Best practice for working with physical registration markers
+# Best practice for working with physical Markers
 
 Twinbuild registration codes can be printed, laminated and reused from project to project.
 {: .fs-6 .fw-300 }

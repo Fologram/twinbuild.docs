@@ -17,4 +17,4 @@ Code detection will be impacted by the distance of the HoloLens from the code, t
 
 ### Locating the Test Model in your work space
 
-Walk over to any one of your registration markers and look at the code with the HoloLens 2. When the code is detected, the scaled precision model will snap in place. Walk to a second code and repeat the scanning process. When the second code is detected, the test model will scale to 1:1. Repeat this process with remaining codes. For optimal results, scan each code 2 or 3 times as this will also enable the HoloLens to build up tracking data within your workspace.
+Walk over to any one of your Markers and look at the code with the HoloLens 2. When the code is detected, the scaled precision model will snap in place. Walk to a second code and repeat the scanning process. When the second code is detected, the test model will scale to 1:1. Repeat this process with remaining codes. For optimal results, scan each code 2 or 3 times as this will also enable the HoloLens to build up tracking data within your workspace.

@@ -5,9 +5,9 @@ nav_order: 10
 has_children: true
 ---
 
-# Best practice for working with registration markers
+# Best practice for working with Markers
 
-Users should determine a strategy for locating registration markers by balancing the overheads of setup time with the required holographic precision.
+Users should determine a strategy for locating Markers by balancing the overheads of setup time with the required holographic precision.
 {: .fs-6 .fw-300 }
 
 Imprecision in marker locations will lead to corresponding error in drift correction of holographic models. For maximum precision it is important to ensure your workspace is set up within a perimiter defined by 3 or more registration codes as Twinbuild will interpolate between the tracked positions of the nearest three registration codes to corect for drift.
@@ -18,7 +18,7 @@ Maximum hologram precision will be exactly equal to the precision in the locatio
 
 ![Linear Marker Precision]({{ site.baseurl}}/img/LinearMarkerDiagram.png "Linear Marker Precision")
 
-### Linear Registration Markers
+### Linear Markers
 
 _Implementation:_ Using a tape measure / disto, align markers (white crosses in above diagram) with the workspace at a known measured distance apart.
 

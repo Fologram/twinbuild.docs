@@ -5,11 +5,11 @@ nav_order: 2
 parent: Evaluating Precision
 ---
 
-# Adding registration markers to the test model
+# Adding Markers to the test model
 
-To locate the Precision Test model relative to your physical workspace you will need to attach the coordinates of your Registration markers. This process will need to be completed once for each workspace where you plan to use Twinbuild, as registration marker positions can be shared between published models.
+To locate the Precision Test model relative to your physical workspace you will need to attach the coordinates of your Markers. This process will need to be completed once for each workspace where you plan to use Twinbuild, as Marker positions can be shared between published models.
 
-Click on Register to add the coordinates of a registration marker to the model. Enter the ID and coordinates (in meters) then click Accept to register the point. If you make a mistake, you can click on the ID of the point within the 3D viewport to edit the ID or coordinates. Repeat this process for each Registration Marker in your workspace.
+Click on Add Marker to add the coordinates of a Marker to the model. Enter the ID and coordinates (in meters) then click Accept to register the point. If you make a mistake, you can click on the ID of the point within the 3D viewport to edit the ID or coordinates. Repeat this process for each Marker in your workspace.
 
 If your Registration Points are not located in the correct position relative to the test grid geometry, check to make sure you have moved the coordinates of each Registration Point in CAD so that the 0,0,0 point is on the floor roughly in the area where you plan to use the HoloLens.
 
