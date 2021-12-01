@@ -16,4 +16,6 @@ Applications on the HoloLens 2 are accessed through the Windows Home menu. To op
 
 To interact with a tile in the menu or any other 'button' element, push your finger through the element as if pressing a physical button. To interact with buttons that are not within arms react, hold up your hand to display a cursor and hand ray. When the cursor is over the element you wish to interact with, tap your index finger and thumb together to 'click' the element.
 
+For a detailed step by step guide to interacting with the HoloLens, see [Microsoft's documentation](https://docs.microsoft.com/en-us/hololens/hololens2-basic-usage).
+
 Small popup notifications on the HoloLens 2 will prompt you when you can interact with content using voice commands. A complete list of supported voice vommands is available on [Microsoft's Docs](https://docs.microsoft.com/en-us/windows/mixed-reality/design/voice-input).

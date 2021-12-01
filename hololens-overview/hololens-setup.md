@@ -22,6 +22,8 @@ Setting up your HoloLens 2 for an organization requires an Azure AD account and 
 
 Setting up your HoloLens 2 as an individual requires a personal Microsoft account (you can set one up for free [here](https://account.microsoft.com/))
 
+For more information on setting up HoloLens devices for organizations with multiple users, see [Microsoft's documentation(https://docs.microsoft.com/en-us/hololens/hololens-multiple-users)
+
 ## Connecting to WiFi
 
 Your Hololens will need to be connected to the internet to install Twinbuild and download models, after which point Twinbuild can run offline if required. If you are setting up your HoloLens 2 out of the box, Cortana will prompt you to connect to an available WiFi network during setup. If you are using a shared device or working in a new location, you may need to reconnect your device:
@@ -33,3 +35,7 @@ Choose a network.
 Enter your username and password.
 
 The HoloLens has known issues verifying security certificates with some enterprise networks. For further Reading refer to [Microsoft's Guide to Connecting Hololens to Wifi](https://docs.microsoft.com/en-us/hololens/hololens-network)
+
+## Microsoft HoloLens Setup Guide
+
+If you're looking for an in depth, step by step guide to HoloLens 2 setup for first time use, refer to [Microsoft's Setup Guide](https://docs.microsoft.com/en-us/hololens/hololens2-setup)

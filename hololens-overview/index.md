@@ -18,4 +18,4 @@ The transparent display enables digital content (called 'holograms') and physica
 
 Mixed Reality experiences blend digital content with physical spaces, enabling digital models to be used as templates and guides for carrying out physical work. These experiences can be shared between multiple participants who can view the same digital models in the same physical place as if they were actually present. This improves the ability to discuss and communicate 3D information and to collaborate on complex spatial tasks.
 
-For more information on Mixed Reality see [Microsoft's Docs](https://docs.microsoft.com/en-us/windows/mixed-reality/discover/mixed-reality).
+For more information on Mixed Reality see [Microsoft's Docs](https://docs.microsoft.com/en-us/windows/mixed-reality/discover/mixed-reality). You can find a detailed breakdown of HoloLens 2 hardware specs in [this overview](https://docs.microsoft.com/en-us/hololens/hololens2-hardware).

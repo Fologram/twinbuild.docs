@@ -54,3 +54,5 @@ _Solution:_ Avoid working outdoors when requiring high precision, or create a sh
 _Cause:_ Repeating tiles, carpet, panels and structure all negatively affect tracking performance through the absence of unique features.
 
 _Solution:_ Cover repeating patterns or avoid working in these spaces if possible.
+
+For more information see [Microsoft's documentation](https://docs.microsoft.com/en-us/hololens/hololens-environment-considerations).
