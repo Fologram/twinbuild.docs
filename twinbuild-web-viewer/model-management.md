@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Team Model Dashboard
-nav_order: 5
+nav_order: 8
 parent: Twinbuild Web Viewer
 ---
 

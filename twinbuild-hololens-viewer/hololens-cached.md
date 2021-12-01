@@ -1,14 +1,12 @@
 ---
 layout: default
 title: Loading Cached Models
-nav_order: 3
+nav_order: 4
 parent: Twinbuild HoloLens Viewer
 ---
 
 # Loading locally cached models offline on the HoloLens
 
-While your HoloLens is connected to the internet, create an offline Link to your model by clicking on the View in AR button for the model you are wanting to view, then clicking the Print button to create a persistent offline code. Save the image file for this Link or create a physical printed copy for later use. Scan this Link with your HoloLens to download and cache the model in Twinbuild. 
+While your HoloLens is connected to the internet, download the model you wish to view offline using a temporary or printed QR Link code or push notifications. If you are sending the model to another user and are unsure when they will download the model, [create a Printed code from the QR Code Link page to ensure the model is accessible]({{ site.baseurl}}/twinbuild-web-viewer/creating-model-links).
 
-To view the model offline, Turn on the HoloLens 2 and scan the **same printed** Link for the model to launch Twinbuild and load the locally cached file. After the model has been successfully loaded, scan two or more registration codes in your physical space to locate the model at 1:1.
-
-Note: you will not be able to load cached models using newly generated Links. Cached models can only be loaded with the Link used to initially download the model.
+To view the model offline, Turn on the HoloLens 2 and scan and Link (printed, generated or even an old expired Link) for the model to launch Twinbuild and load the locally cached file. After the model has been successfully loaded, scan two or more registration codes in your physical space to locate the model at 1:1.

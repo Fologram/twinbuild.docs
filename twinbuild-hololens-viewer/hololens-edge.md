@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Loading models from the Team Model Dashboard
-nav_order: 2
+nav_order: 3
 parent: Twinbuild HoloLens Viewer
 ---
 

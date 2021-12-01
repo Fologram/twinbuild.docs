@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Loading models from Links
-nav_order: 1
+nav_order: 2
 parent: Twinbuild HoloLens Viewer
 ---
 

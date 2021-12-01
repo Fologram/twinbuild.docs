@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Publishing Settings
-nav_order: 6
+nav_order: 9
 parent: Twinbuild Web Viewer
 ---
 

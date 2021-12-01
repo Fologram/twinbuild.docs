@@ -1,17 +1,11 @@
 ---
 layout: default
-title: Publishing and Previewing Models
-nav_order: 1
+title: Previewing Models
+nav_order: 2
 parent: Twinbuild Web Viewer
 ---
 
-# Publishing and Previewing models in the web browser
-
-![Twinbuild App Dashboard]({{ site.baseurl}}/img/14_Twinbuild_App_NoModels.png "Twinbuild App Dashboard")
-
-You can publish models to Twinbuild from the Twinbuild App Dashboard or directly from our Revit and Rhino plugins. To publish a model from the dashboard, sign in to https://app.twinbuild.com/ and select or drag and drop an .fbx, .ifc, .gltf or .glb file into the drop zone. To publish from Revit or Rhino, follow the guides below.
-
-[Revit Guide]({{ site.baseurl}}/twinbuild-for-revit){: .btn } [Rhino Guide]({{ site.baseurl}}/twinbuild-for-rhino){: .btn }
+# Previewing models in the web browser
 
 ![Twinbuild Model Preview]({{ site.baseurl}}/img/15_Twinbuild_App_ModelPreview.png "Twinbuild Model Preview")
 

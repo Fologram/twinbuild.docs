@@ -10,8 +10,6 @@ parent: Twinbuild Account Dashboard
 A Twinbuild subscription is required for each HoloLens 2 device you will be using to view models.
 {: .fs-6 .fw-300 }
 
-If you’re not sure whether the Basic or Pro plan is suited to your use case, check the [feature comparison on our website](https://twinbuild.com/#pricing) or contact our team to discuss your requirements.
-
 ![Customer Portal]({{ site.baseurl}}/img/4_Twinbuild_Stripe_Purchase.png "Customer Portal")
 
 To purchase a new subscription, enter the number of seats (devices) that will be required and click Subscribe to launch the customer portal in a new tab. The customer portal displays the annual total fee for your selected quantity of seats, as well as fields to pay by credit card. Complete your details and click Subscribe to purchase a subscription.

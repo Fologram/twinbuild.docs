@@ -14,7 +14,7 @@ Publish models directly from Rhino with our integration
 
 Installing the Twinbuild for Rhino plugin from twinbuild.com/download adds the _Twinbuild_ and _TwinbuildQR_ commands to Rhino.
 
-Use the _Twinbuild_ command to publish all supported and visible objects to the web browser. The _Twinbuild_ command compresses mesh geometry and texture files and creates a GLB object that is then opened in the Twinbuild web application. For best results, ensure that Google Chrome is set as your PCs default web browser.
+Use the _Twinbuild_ command to publish all supported and visible objects to the web browser. The _Twinbuild_ command compresses curves, mesh geometry and texture files and creates a GLB object that is then opened in the Twinbuild web application. For best results, ensure that Google Chrome is set as your PCs default web browser.
 
 ### Working at the Origin
 
@@ -22,10 +22,18 @@ To ensure a predictable experience for the end user, it is generally useful to k
 
 ### Publishing Curves
 
+Twinbuild renders curves with a uniform thickness regardless of distance to the HoloLens to ensure maximum precision and minimal visual occlusion during setout tasks. If you wish to export curves with a world-space thickness that renders like other 3D objects in the model you can create mesh pipes from your curve geometry.
+
 ![Curve Piping]({{ site.baseurl}}/img/RhinoCurvePiping.png "Curve Piping")
 
-Use the Rhino curve piping properties to create low polygon mesh pipes from curve geometry for publishing with Twinbuild. The settings above (0.5mm radius, 4 segments and a flat cap type) are well suited to layout tasks. If creating pipes from curves, adjust the Accuracy slider to create a pipe with appropriate mesh resolution for the task. Run the _ExtractPipedCurve_ command to extract the mesh object from the preview of the curve pipe. This object can then be published with the _Twinbuild_ command.
+Use the Rhino curve piping properties to create low polygon mesh pipes from curve geometry. Run the _ExtractPipedCurve_ command to extract the mesh object from the preview of the curve pipe. This object can then be published with with the rest of the model as normal.
+
+### Publishing Text
+
+Twinbuild does not export Rhino's Text or Dot objects. Text objects need to be converted to curve or Mesh geometry to export and view on the HoloLens. Text can be converted to curves using the _Explode_ command. If you wish to view the text as a solid surface, select the exploded curves and use the _PlanarSrf_ to create a planar surface model. Then use the _Mesh_ command to create a low poly mesh from this surface. Delete the surface geometry before publishing.
+
+Dots can be converted to Text objects using the _ConvertDot_ command, after which you can follow the steps above.
 
 ### Unsupported Objects
 
-Curves, Text, Lights, Dimensions and Hatches are not currently supported natively in Twinbuild. Curves and text can be meshed before publishing using the steps outlined above. Remove any geometry in the model that will not be used in the holographic application (e.g. superficial elements like models of people, trees etc). Remove any materials with textures to simplify the experience for the end user.
+Text, Lights, Dimensions and Hatches are not currently supported natively in Twinbuild. Text can be meshed before publishing using the steps outlined above. Remove any geometry in the model that will not be used in the holographic application (e.g. superficial elements like models of people, trees etc). Remove any materials with textures to simplify the experience for the end user.

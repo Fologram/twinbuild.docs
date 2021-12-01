@@ -10,7 +10,7 @@ parent: HoloLens Precision
 User behaviour will affect tracking performance as the user controls which parts of the work space are visible to the RGB cameras on the HoloLens used for tracking.
 {: .fs-6 .fw-300 }
 
-Users should be trained in appropriate use of the HoloLens to minimize adverse impact on tracking and precision during work.
+Users should be trained in appropriate use of the HoloLens to minimize adverse impact on tracking and precision during work. For more information see [Microsoft's documentation](https://docs.microsoft.com/en-us/hololens/hololens-spaces).
 
 ### Issues with covering cameras
 
