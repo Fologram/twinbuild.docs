@@ -10,7 +10,7 @@ parent: Twinbuild Web Viewer
 Markers are QR codes that fix holograms to precisely known coordinates in 3D space.
 {: .fs-6 .fw-300 }
 
-![Adding Markers]({{ site.baseurl}}/img/AddRegistration.png "Adding Markers")
+![Adding Markers]({{ site.baseurl}}/img/AddMarker.png "Adding Markers")
 
 ### Adding Markers
 
