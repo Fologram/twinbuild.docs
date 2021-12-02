@@ -14,9 +14,9 @@ When a model is loaded in Twinbuild for the first time, Twinbuild will enter pre
 
 Note that Preview mode is not recommended for production or demonstration scenarios due to the likelihood of accidental model manipulation.
 
-![Twinbuild UI]({{ site.baseurl}}/img/TwinbuildUI.png "Twinbuild UI")
+![Twinbuild UI]({{ site.baseurl}}/img/HoloLensLayers.jpg "Twinbuild UI")
 
-The Twinbuild UI contains tools for easily accessing HoloLens settings, Twinbuild models and editing layer properties. To open the Twinbuild user interface on the HoloLens, look at your palm. You can grab and drag the menu to move it in your space and can close the menu at any time by tapping the Exit icon.
+The Twinbuild UI contains tools for easily accessing HoloLens settings, restarting the application and editing layer properties. To open the Twinbuild user interface on the HoloLens, look at your palm. You can grab and drag the menu to move it in your space and can close the menu at any time by tapping the Exit icon.
 
 The layer panel displays all layers in the model. Layers visibility can be toggled on and off with the icon to the right of the layer name. Toggling visibility for a parent layer will hide all child layers. Individual layers can also be isolated (hiding all other layers) by tapping the isolate button to the far right of the layer name. Note that isolating a child layer will not hide geometry on the parent layer.
 
