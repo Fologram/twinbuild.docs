@@ -7,13 +7,13 @@ parent: Twinbuild Web Viewer
 
 # Drag and Drop model publishing
 
-You can publish models to Twinbuild by draggig and dropping a supported file to app.twinbuild.com or directly from our Revit and Rhino plugins. To learn how to publish from Revit or Rhino, follow one of these guides:
+You can publish models to Twinbuild by dragging and dropping a supported file to app.twinbuild.com or directly from our Revit and Rhino plugins. To learn how to publish from Revit or Rhino, follow one of these guides:
 
 [Revit Guide]({{ site.baseurl}}/twinbuild-for-revit){: .btn } [Rhino Guide]({{ site.baseurl}}/twinbuild-for-rhino){: .btn }
 
 ![Twinbuild App Dashboard]({{ site.baseurl}}/img/14_Twinbuild_App_NoModels.png "Twinbuild App Dashboard")
 
-To publish a model from the dashboard, sign in to https://app.twinbuild.com/ and select or drag and drop an .fbx, .ifc, .gltf or .glb file into the drop zone. You can also drag and drop a supported file directly into the 3D web viewer to load the new model.
+To publish a model from the dashboard, sign in to https://app.twinbuild.com/ and select or drag and drop an .fbx, .ifc, .gltf or .glb file into the drop zone. You can also drag and drop a supported file directly into the 3D web viewer to load the new model. Note that files in zipped or compressed folders should be extracted to an uncompressed folder before using the drag and drop interface.
 
 ## Considerations for drag and drop publishing
 
