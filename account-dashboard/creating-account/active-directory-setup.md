@@ -2,7 +2,8 @@
 layout: default
 title: Admin setup for Microsoft Accounts
 nav_order: 7
-parent: Twinbuild Account Dashboard
+parent: Creating an Account
+grand_parent: Twinbuild Account Dashboard
 ---
 
 # Setup instructions for Microsoft Active Directory
