@@ -3,6 +3,7 @@ layout: default
 title: Creating an Account
 nav_order: 1
 parent: Twinbuild Account Dashboard
+has_children: true
 ---
 
 # Creating and signing in to your Twinbuild account
