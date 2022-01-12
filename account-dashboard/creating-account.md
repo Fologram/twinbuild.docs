@@ -3,7 +3,6 @@ layout: default
 title: Creating an Account
 nav_order: 1
 parent: Twinbuild Account Dashboard
-has_children: true
 ---
 
 # Creating and signing in to your Twinbuild account
@@ -13,7 +12,7 @@ A free Twinbuild account is required for publishing models, managing teams and p
 
 ![Sign up for Twinbuild]({{ site.baseurl}}/img/1_Twinbuild_Account_SignIn.png "Sign up for Twinbuild")
 
-If you and your team are working with Twinbuild for the first time, visit https://account.twinbuild.com and sign in using your company's Google or Microsoft email, or by completing the sign up form and providing an email and password.
+If you and your team are working with Twinbuild for the first time, visit https://account.twinbuild.com and sign in using your company's Google or Microsoft email, or by completing the sign up form and providing an email and password. Check [this page]({{site.baseurl}}/account-dashboard/active-directory-setup.html) for configuring permissions for Microsoft accounts.
 
 ![Twinbuild account dashboard]({{ site.baseurl}}/img/2_Twinbuild_Account_Welcome.png "Twinbuild account dashboard")
 
