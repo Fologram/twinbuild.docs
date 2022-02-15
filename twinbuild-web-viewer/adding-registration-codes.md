@@ -20,13 +20,9 @@ The coordinates of Markers can be defined using the TwinbuildQR command in Rhino
 
 ![Marker Orientation]({{ site.baseurl}}/img/MarkerOrientation.png "Marker Orientation")
 
-Markers can be used to orient your model in world space or object space. World space orientation uses detected Marker positions to correct the XYZ position and Z rotation of your models. World space orientation is useful in scenarios where you want to ensure that your model is guaranteed not to rotate around X or Y axes, for instance if placing a model on a somewhat uneven flat surface (construction sites etc - see below).
+Markers can be used to orient your model in world space or object space. World space orientation uses detected Marker positions to correct the XYZ position and Z rotation of your models, while Object space orientation will updated the XYZ position and XYZ rotation of the model to match the orientation of detected Markers.
 
-![World Orientation Example]({{ site.baseurl}}/img/OrientToWorldExample.png "World Orientation Example")
-
-Object orientation uses detected Marker positions to correct the XYZ position _and_ rotation of your model. Object space orientation is useful for scenarios where you are wanting to locate models on physical objects that may be in an unknown or changing position or orientation (see example below).
-
-![Object Orientation Example]({{ site.baseurl}}/img/OrientToObjectExample.png "Object Orientation Example")
+![Orientation Mode Diagram]({{ site.baseurl}}/img/OrientationModeDiagram.png "Orientation Mode Diagram")
 
 ## Creating Markers from Coordinates
 

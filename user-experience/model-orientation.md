@@ -7,4 +7,12 @@ parent: Optimizing User Experience
 
 # Choosing an appropriate model orientation for your application
 
-It may be challenging to accurately align physical and digital objects when the two objects are positioned in different orientations in 3D space. Twinbuild can correct for position in world XYZ axes and for rotation around the world Z axis by interpolating between the correction vectors of the nearest three Markers. Orientation is not corrected for rotation around the X or Y axes, meaning that physical objects that are not positioned with a precisely known orientation may be difficult to overlay with holographic information for layout or QA applications. Design applications where physical and digital objects can be located with only XYZ position aligned with two points in the XY plane.
+If Twinbuild is used for green field construction, setout or fabrication from scratch then use Orient to World to ensure that holograms remain perfectly level during setout. If Twinbuild is used for fabrication and setout on or with existing objects where precise orientation is not known ahead of time or is expected to change, use Orient to Object to ensure hologram orientation can be updated dynamically to match the precise orientation of physical objects.
+
+World space orientation is useful in scenarios where you want to ensure that your model is guaranteed not to rotate around X or Y axes, for instance if placing a model on a somewhat uneven flat surface (construction sites etc - see below).
+
+![World Orientation Example]({{ site.baseurl}}/img/OrientToWorldExample.png "World Orientation Example")
+
+Object orientation uses detected Marker positions to correct the XYZ position _and_ rotation of your model. Object space orientation is useful for scenarios where you are wanting to locate models on physical objects that may be in an unknown or changing position or orientation (see example below).
+
+![Object Orientation Example]({{ site.baseurl}}/img/OrientToObjectExample.png "Object Orientation Example")
