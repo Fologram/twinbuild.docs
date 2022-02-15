@@ -12,6 +12,14 @@ User behaviour will affect tracking performance as the user controls which parts
 
 Users should be trained in appropriate use of the HoloLens to minimize adverse impact on tracking and precision during work. For more information see [Microsoft's documentation](https://docs.microsoft.com/en-us/hololens/hololens-spaces).
 
+### Issues with inferring position of far away objects
+
+_Cause:_ Holograms can be seen at any arbitrary distance from the viewer. However, attempting to use holograms at greater than arms length from the viewer may introduce apparent drift due to incorrect perception of the location of the object. Incorrect perception is usually caused by lever arm effects when rendering depth on stereo displays: small movement in the position of the display relative to the eyes can result in large apparent motion in objects far away.
+
+_Impact:_ Incorrect perception of hologram position resulting in apparent drift / imprecision
+
+_Identification:_ After moving to within arms length of the hologram in question it will appear to have moved. The true position of the hologram can be more accurately perceived at arms length.
+
 ### Issues with covering cameras
 
 _Cause:_ Covering HoloLens cameras with clothing, protective equipment, welding helmets, dirt / dust / scratches or with hands during use will all reduce tracking performance as feature points used for tracking will no longer be visible or will become blurred.

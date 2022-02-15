@@ -11,7 +11,7 @@ To view a loaded model in your physical space, walk over to any one of your Mark
 
 ### Clearing cached Marker positions
 
-Marker positions are cached on the HoloLens 2 to allow loading different models into the same location in a physical space. If a physical Marker is moved to a new position after being scanned by Twinbuild you will need to clear all cached positions to prevent corruption of spatial data used to improve hologram drift. To clear all cached Marker positions, hold the power button on the Hololens 2 until you hear a beep and the device switches off. Turn the headset on and launch Twinbuild to rescan the new code positions.
+Marker positions are cached on the HoloLens 2 to allow loading different models into the same location in a physical space. If a physical Marker is moved to a new position after being scanned by Twinbuild you will need to clear all cached positions to prevent corruption of spatial data used to improve hologram drift. To clear all cached Marker positions, open the Windows Home menu on the HoloLens (tap the windows icon on your wrist), then tap and hold your profile picture at the top of the menu and choose Restart. Alternatively, hold the power button on the Hololens 2 until you hear a beep and the device switches off. Turn the headset on and launch Twinbuild to rescan the new code positions.
 
 ### Notes on Marker Detection
 
