@@ -22,7 +22,13 @@ For simple frame designs a 2D drawing is sufficient for setout. If working from 
 
 ![Frame Assembly]({{ site.baseurl}}/img/applications/FramingAssembly.png "Frame Assembly")
 
-For QA or more complex models (for instance with multiple profiles or complex services) export a low-polygon 3D model of the frame. When viewing the model in Twinbuild on the HoloLens, enable Outlines to overlay physical frames with virtual content without occluding the physical frame with a solid hologram. Model all services (cables and pipes) as linework.
+For QA or more complex models (for instance with multiple profiles or complex services) export a low-polygon 3D model of the frame. Model sections as single surface extrusions rather than as solids when possible. When viewing the model in Twinbuild on the HoloLens, enable Outlines to overlay physical frames with virtual content without occluding the physical frame with a solid hologram. Model all services (cables and pipes) as linework.
+
+Replace surface trims with curve outlines to avoid creating high-polygon meshes in Twinbuild. For instance, bores for cabling should be modelled as curve outlines rather than booleans to ensure you can still use the Outline display for the frame geometry without introducing artifacts.
+
+![The effect of booleaned bores]({{ site.baseurl}}/img/applications/MeshCompare.png "The effect of booleaned bores")
+
+_Above: Steel section modelled as a simple extrusion with linework indicating bore geometry. Below: bores booleaned from steel section and the resulting mesh geometry_
 
 ### Marker Setout
 
