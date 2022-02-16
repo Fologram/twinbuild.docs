@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Glossary
-nav_order: 13
+nav_order: 14
 ---
 
 # Understanding augmented reality terminology
@@ -16,11 +16,11 @@ _IFC_ - “Industry Foundation Classes”, a data format for exchanging BIM mode
 
 _IPD_ - Inter Pupil Distance used by the HoloLens to correctly display the depth of holograms on the stereo display.
 
-_Connection Code_ - A QR code containing a link to a model hosted on the cloud
+_Connection Code (Link)_ - A QR code containing a link to a model hosted on the cloud
 
 _Publishing_ - The process of packaging, compressing, and previewing a model in a web browser
 
-_Registration Code_ - A QR code used to correct for hologram positional error by fixing a point in model space to a point in physical space
+_Registration Code (Marker)_ - A QR code used to correct for hologram positional error by fixing a point in model space to a point in physical space
 
 _SLAM_ - Simultaneous Localization and Mapping. SLAM algorithms are used by the HoloLens to estimate camera motion from visible feature points
 
