@@ -16,11 +16,11 @@ When working with automated processes for framing fabrication, Twinbuild can ass
 
 ### Model Preparation
 
-![Frame Assembly 2D]({{ site.baseurl}}/img/applications/FramingAssembly2d.png "Frame Assembly 2D")
+![Frame Assembly 2D]({{ site.baseurl}}/img/applications/FrameAssembly.png "Frame Assembly 2D")
 
 For simple frame designs a 2D drawing is sufficient for setout. If working from Revit, export and insert a DXF of the frame drawing into a 3D view to publish to Twinbuild. Assign different colours to framing and services for clarity.
 
-![Frame Assembly]({{ site.baseurl}}/img/applications/FramingAssembly.png "Frame Assembly")
+![Frame Assembly]({{ site.baseurl}}/img/applications/FrameAssembly3d.png "Frame Assembly")
 
 For QA or more complex models (for instance with multiple profiles or complex services) export a low-polygon 3D model of the frame. Model sections as single surface extrusions rather than as solids when possible. When viewing the model in Twinbuild on the HoloLens, enable Outlines to overlay physical frames with virtual content without occluding the physical frame with a solid hologram. Model all services (cables and pipes) as linework.
 
