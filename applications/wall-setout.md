@@ -14,7 +14,7 @@ Twinbuild can be used to improve productivity and reduce mistakes in common set 
 
 ### Model Preparation
 
-![Wall Setout]({{ site.baseurl}}/img/applications/WallSetout.png "Wall Setout)
+![Wall Setout]({{ site.baseurl}}/img/applications/WallSetout.png "Wall Setout")
 
 For simple setout tasks a 2D drawing is sufficient for setout. If working from Rhino, hide all 3D models and publish linework required for the setout task. If working from Revit, export and insert a DXF of the frame drawing into a 3D view to publish to Twinbuild. Assign different colours to framing and finished surfaces for clarity.
 
