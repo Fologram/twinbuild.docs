@@ -24,9 +24,7 @@ _Installation_ For installation, use linework to describe pipe centerlines where
 
 _Assembly_ Two markers are usually sufficient for precision of small modules. For larger modules use a grid of four or more markers. These can be permanently set up in an offsite work environment and re-imported into each new module design model for expediency.
 
-_Installation_ For installation, locate markers at known physical reference points as near as possible to the installation work area. For instance, markers may be located at the corners of interior wall edges defining the installation work area.
-
-![Setout from existing walls]({{ site.baseurl}}/img/Precision_ObjectFeatures.png "Setout from existing walls")
+_Installation_ For installation, locate markers at known physical reference points as near as possible to the installation work area. For instance, markers may be located at the corners of interior wall edges defining the installation work area (see above).
 
 ### Task Guidance
 
