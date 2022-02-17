@@ -32,7 +32,7 @@ _Above: Steel section modelled as a simple extrusion with linework indicating bo
 
 ### Marker Setout
 
-_Fabrication:_ For optimal precision setup a marker grid in the production space with spacing of maximum 3000x3000mm. In the Twinbuild Web Viewer, use Orient To World and add the marker positions. These markers can be imported into any model published to Twinbuild when fabricating multiple frame designs.
+_Fabrication:_ For optimal precision setup a marker grid in the production space with spacing of maximum 3000x3000mm. In the Twinbuild Web Viewer, use Orient To Site and add the marker positions. These markers can be imported into any model published to Twinbuild when fabricating multiple frame designs.
 
 _QA:_ In the Twinbuild Web Viewer, use Orient to Object and locate a marker on each of the four corners of the frame. Fix these markers precisely on the physical frame by folding the tab of the Marker.
 
