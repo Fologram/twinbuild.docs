@@ -10,7 +10,7 @@ parent: Applications
 Twinbuild can be used to precisely set out interior walls and finished surfaces
 {: .fs-6 .fw-300 }
 
-Twinbuild can be used to improve productivity and reduce mistakes in common set out tasks such as marking the location of base plates, doors and window openings, finished surfaces and so on. This can be achieved by simply overlaying the floor surface with a 2D plan viewed at 1:1.
+Twinbuild can improve productivity and reduce mistakes in common set out tasks such as marking the location of base plates, doors and window openings and finished surfaces on existing slabs and floor structures. This can be achieved by simply overlaying the floor surface with a 2D plan viewed at 1:1.
 
 ### Model Preparation
 
