@@ -13,7 +13,7 @@ On your mobile / laptop, visit https://app.twinbuild.com/account/models and open
 
 ### Notes on Code Detection
 
-Code detection will be impacted by the distance of the HoloLens from the code, the materiality of the code (matte surfaces like paper scan more successfully than screens or reflective laminate), the brightness of lighting on the code (very bright or very dark spaces can be difficult to detect codes in) and objects occluding any part of the code.
+Code detection will be impacted by the distance of the HoloLens from the code, the materiality of the code (matte surfaces like paper scan more successfully than screens or reflective laminate), the brightness of lighting on the code (very bright or very dark spaces can be difficult to detect codes in) and objects occluding any part of the code. _The HoloLens may not be able to detect markers that have been moved since last being detected. Restart the headset if you are having difficulty detecting moved markers_
 
 ### Locating the Test Model in your work space
 
