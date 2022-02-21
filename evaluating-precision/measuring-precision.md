@@ -15,4 +15,4 @@ The proximity of the crosshair to a Marker, human error in marking out from the 
 
 ### Maximum precision
 
-If Markers are accurately positioned to 1mm and the workspace has been set up to be optimal for HoloLens tracking you should expect measured differences to be 0-3mm due to human error and the fidelity of the HoloLens display.
+If your marker distribution allows you to perform the precision test while being within 2000mm of a marker and within a boundary defined by markers, all markers are accurately positioned to 1mm and the workspace has been set up to be optimal for HoloLens tracking you should expect measured differences to be 0-3mm due to human error and the fidelity of the HoloLens display. If working with fewer markers (resulting in greater distance from markers while performing the precision test), or if markers cannot be reliably located (for instance by being approximately located on the surface of physical objects) then you should expect some increase in measured differences.
