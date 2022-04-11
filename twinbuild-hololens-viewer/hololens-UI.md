@@ -14,7 +14,7 @@ When a model is loaded in Twinbuild for the first time, Twinbuild will enter pre
 
 Note that Preview mode is not recommended for production or demonstration scenarios due to the likelihood of accidental model manipulation.
 
-![Twinbuild UI]({{ site.baseurl}}/img/HoloLensLayers.jpg "Twinbuild UI")
+![Twinbuild UI]({{ site.baseurl}}/img/TwinbuildUI.jpg "Twinbuild UI")
 
 The Twinbuild UI contains tools for easily accessing HoloLens settings, restarting the application, toggling between outline and solid rendering and editing layer properties. To open the Twinbuild user interface on the HoloLens, look at your palm. You can grab and drag the menu to move it in your space and can close the menu at any time by tapping the Exit icon.
 
