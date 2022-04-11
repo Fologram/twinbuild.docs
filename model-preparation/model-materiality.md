@@ -7,13 +7,19 @@ parent: Model Preparation
 
 # Selecting appropriate materials for augmented reality
 
-Holograms rendered as surfaces can obscure parts of the physical environment that need to be visible to carry out a task. Rendering surface models on the hololens with textures or reflective materials can also distract workers from following spatial guides and reduce the immersion of the experience by creating screendoor effects or the appearance of pixelated surfaces. Generally speaking, avoid surface models and the use of textures on the HoloLens to ensure the physical environment is always visible to the user.
+Holograms rendered as surfaces can obscure parts of the physical environment that need to be visible to carry out a task. Rendering surface models on the hololens with textures or reflective materials can also distract workers from following spatial guides and reduce the immersion of the experience by creating screendoor effects or the appearance of pixelated surfaces. To address this issue, Twinbuild provides an outline display mode that allows both physical and virtual objects to be visible at the same time. When viewing a model in outline mode, all geometry will be rendered as white linework and materials / textures will be ignored.
+
+## Preparing models to be rendered as outlines in Twinbuild
+
+Twinbuild creates outlines automatically from all unwelded edges in model mesh geometry. If outline mode is displaying _all_ edges in your model, use your CAD software to check whether mesh faces should be welded before publishing (In Rhino you can use the _Weld_ command and specify an angle tolerance for weld angles. Angles between faces larger than this tolerance will be displayed as outlines). Conversely, if outline mode is not displaying any edges then you may need to unweld your geometry before publishing (In Rhino use the _Unweld_ command).
 
 ## Hiding holograms with black materials
 
+Outline mode will display all geometry in your model as simple white linework. In some cases it is necessary to more precisely control what is displayed in Twinbuild, while still enabling both physical and virtual objects to be viewed at the same time.
+
 A common challenge to working entirely with vector geometry (curve and lines) in mixed reality is the lack of occlusion, and virtual objects will be visible even when they are "behind" physical objects in a workspace. This increases the difficulty of following virtual objects as spatial guides as users need to constantly check to ensure they are working with the correct guide and not some linework that is in the background some distance away. To address this issue, physical objects can be approximately modelled and assigned black materials in order to obscure virtual content in mixed reality. Black materials will be rendered to the depth buffer while appearing transparent on the HoloLens 2, creating an effective (albeit fake) experience of virtual content being hidden by physical objects.
 
-## Example: Preparing a Model
+### Example: Preparing a Model
 
 ![Solid Surfaces on the HoloLens]({{ site.baseurl}}/img/SolidSurfacesHoloLens.jpg "Solid Surfaces on the HoloLens")
 
@@ -29,7 +35,7 @@ By assigning a black material to the surface of the model we can hide geometry b
 
 ![Transparent black surfaces]({{ site.baseurl}}/img/OcclusionExample.png "Transparent black surfaces")
 
-## Example: Applying Graphics
+### Example: Applying Graphics
 
 ![Pattern Curves]({{ site.baseurl}}/img/PatternCurves.png "Pattern Curves")
 
