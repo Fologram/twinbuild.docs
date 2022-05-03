@@ -14,13 +14,11 @@ When a model is loaded in Twinbuild for the first time, Twinbuild will enter pre
 
 Note that Preview mode is not recommended for production or demonstration scenarios due to the likelihood of accidental model manipulation.
 
-![Twinbuild UI]({{ site.baseurl}}/img/TwinbuildUI.jpg "Twinbuild UI")
+![Twinbuild UI]({{ site.baseurl}}/img/Twinbuild_HoloLensUI.png "Twinbuild UI")
 
-The Twinbuild UI contains tools for easily accessing HoloLens settings, restarting the application, toggling between outline and solid rendering and editing layer properties. To open the Twinbuild user interface on the HoloLens, look at your palm. You can grab and drag the menu to move it in your space and can close the menu at any time by tapping the Exit icon.
+The Twinbuild UI contains tools for easily accessing HoloLens settings, restarting the application, toggling between outline and solid rendering and viewing Layouts or Layers. To open the Twinbuild user interface on the HoloLens, look at your palm. You can grab and drag the menu to move it in your space and can close the menu at any time by tapping the Exit icon.
 
-The layer panel displays all layers in the model. Layers visibility can be toggled on and off with the icon to the right of the layer name. Toggling visibility for a parent layer will hide all child layers. Individual layers can also be isolated (hiding all other layers) by tapping the isolate button to the far right of the layer name. Note that isolating a child layer will not hide geometry on the parent layer.
-
-Layers can be isolated in sequence by tapping the Next Layer or Previous Layer buttons. This allowsa user to quickly step view individual layers one at a time for completing task sequences (e.g. displaying courses of bricks). All layers can be made visible by tapping the Show All button.
+The UI panel will display a paginated list of buttons for controlling the visibility of elements in the model. Buttons will display the Layer table of a model by default, and switch to displaying Layouts if the model contains multiple Views (Revit) or Layer States (Rhino). Tapping on a button will toggle the visibility of the Layer / Layout. Use the pagination arrows on the left side of the menu to navigate through all Layouts / Layers in the model. The "Next" and "Previous" buttons can be used to step through the Layout / Layer sequence for the purposes of following assembly guides or other sequential task information.
 
 ## Recording screengrabs and video
 

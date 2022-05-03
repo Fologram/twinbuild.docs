@@ -16,6 +16,16 @@ Installing the Twinbuild for Rhino plugin from twinbuild.com/download adds the _
 
 Use the _Twinbuild_ command to publish all supported and visible objects to the web browser. The _Twinbuild_ command compresses curves, mesh geometry and texture files and creates a GLB object that is then opened in the Twinbuild web application. For best results, ensure that Google Chrome is set as your PCs default web browser.
 
+### Creating Task Sequences using Layer States
+
+You can use the Rhino 7 Layer State manager to save the visibility of all layers in your model as a custom view in Twinbuild called a Layout. Task sequences can be created by publishing models with multiple layouts that can then be stepped through one by one on the Hololens.
+
+![Layer State Manager]({{ site.baseurl}}/img/Twinbuild_LayerStates.png "Layer State Manager")
+
+Use the _LayerStateManager_ command to open the layer state window, then click on the Save icon to save the current visibility state of layers in your model. Repeat this process after changing layer visibility to create your layer states, then use the _-Twinbuild_ command with the hypen included and select the _LayerStates_ option to publish the model containing all of your Layouts.
+
+![Twinbuild Rhino Command]({{ site.baseurl}}/img/Twinbuild_RinoCommand.png "Twinbuild Rhino Command")
+
 ### Working at the Origin
 
 To ensure a predictable experience for the end user, it is generally useful to keep models located at the origin. Use the ExportWithOrigin command in Rhino to export selected objects to a new Rhino file with a specified origin point. Open the exported model to continue working with Twinbuild.
