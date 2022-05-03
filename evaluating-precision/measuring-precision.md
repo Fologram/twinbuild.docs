@@ -7,7 +7,7 @@ parent: Evaluating Precision
 
 # Measuring precision from discrepancies between setout points
 
-Using a measuring tape, measure the edge lengths between crosshairs in the 3000mm grid. These should each be exactly 3000mm. Precision is determined by the discrepancy between the measured distance and 3000mm and may not be uniform throughout your space.
+Using a measuring tape, measure the distances between the physical marks in a shared axis. These should multiples of 1m (metric) or 3' (imperial) apart. Precision is determined by the discrepancy between the measured distance and the grid size and should be highest when nearest to a marker. Precision will reduce outside of the boundary defined by Markers (or away from the axis of linearly positioned markers) and may not be uniform throughout your space.
 
 ### Factors affecting precision in the test
 

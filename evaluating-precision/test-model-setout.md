@@ -7,7 +7,7 @@ parent: Evaluating Precision
 
 # Setout from the test model using the HoloLens
 
-While wearing the HoloLens 2 and viewing the precision test model, use masking tape to roughly indicate the position of the cross hair geometries laid out in the 3000mm grid. Then using a fine tipped pen or pencil, mark out the center point of each crosshair on the masking tape.
+While wearing the HoloLens 2 and viewing the precision test model, use masking tape to roughly indicate the position of the cross hair geometries laid out in the grid. Then using a fine tipped pen or pencil, mark out the center point of each crosshair on the masking tape. If you are working from a simple linear array of markers, drift correction will be optimal along the axis of the grid defined by the markers.
 
 ### Obtaining Optimal Results
 
