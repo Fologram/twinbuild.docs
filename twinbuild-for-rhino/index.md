@@ -14,7 +14,7 @@ Publish models directly from Rhino with our integration
 
 Installing the Twinbuild for Rhino plugin from twinbuild.com/download adds the _Twinbuild_ and _TwinbuildQR_ commands to Rhino.
 
-Use the _Twinbuild_ command to publish all supported and visible objects to the web browser. The _Twinbuild_ command compresses curves, mesh geometry and texture files and creates a GLB object that is then opened in the Twinbuild web application. For best results, ensure that Google Chrome is set as your PCs default web browser.
+Use the _Twinbuild_ command to publish all supported and visible objects to the web browser. The _Twinbuild_ command compresses curves, annotations, mesh geometry and texture files and creates a GLB object that is then opened in the Twinbuild web application. For best results, ensure that Google Chrome is set as your PCs default web browser.
 
 ### Creating Task Sequences using Layer States
 
@@ -38,12 +38,6 @@ Twinbuild renders curves with a uniform thickness regardless of distance to the 
 
 Use the Rhino curve piping properties to create low polygon mesh pipes from curve geometry. Run the _ExtractPipedCurve_ command to extract the mesh object from the preview of the curve pipe. This object can then be published with with the rest of the model as normal.
 
-### Publishing Text
+### Publishing Text Dots
 
-Twinbuild does not export Rhino's Text or Dot objects. Text objects need to be converted to curve or Mesh geometry to export and view on the HoloLens. Text can be converted to curves using the _Explode_ command. If you wish to view the text as a solid surface, select the exploded curves and use the _PlanarSrf_ to create a planar surface model. Then use the _Mesh_ command to create a low poly mesh from this surface. Delete the surface geometry before publishing.
-
-Dots can be converted to Text objects using the _ConvertDot_ command, after which you can follow the steps above.
-
-### Unsupported Objects
-
-Text, Lights, Dimensions and Hatches are not currently supported natively in Twinbuild. Text can be meshed before publishing using the steps outlined above. Remove any geometry in the model that will not be used in the holographic application (e.g. superficial elements like models of people, trees etc). Remove any materials with textures to simplify the experience for the end user.
+Twinbuild supports Rhino text and annotations but does not support Text Dots. Dots can be converted to Text objects using the _ConvertDot_ command if necessary.
